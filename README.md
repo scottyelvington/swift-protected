@@ -145,7 +145,7 @@ class Vehicle: Retainable {
         }
     }
 
-    private var setSpeed(speed: Int) {
+    private func setSpeed(speed: Int) {
         _speed = speed * /* some calculation */
     }
 }
